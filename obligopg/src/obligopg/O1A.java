@@ -28,12 +28,23 @@ public class O1A {
 				}
 
 				// c)
-				public static int summer(int[] tabell) {
+							public static int summer(int[] tabell) {
 
 					int retur = 0;
-					for (int i = 0; i < tabell.length; i++) {
-						retur += tabell[i];
+//					int teller = 0;
+//					for (int i = 0; i < tabell.length; i++) {
+//					retur += tabell[i];
+//					}
+				
+//					while(teller < tabell.length) {
+//						retur += tabell[teller];
+//						teller++;
+//					}
+				
+					for (int x:tabell) {
+						retur += x;
 					}
+				
 					return retur;
 				}
 
